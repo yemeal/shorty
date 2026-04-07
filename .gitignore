@@ -1,14 +1,14 @@
-# Окружение
+# Environment
 .env
 .env.*
 !.env.example
 
-# Сертификаты
+# Certificates
 ssl/
 *.crt
 *.key
 
-# Логи и кэш
+# Logs and cache
 logs/
 *.log
 .DS_Store

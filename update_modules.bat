@@ -1,7 +1,7 @@
 @echo off
-echo Обновление Git-модулей...
+echo Updating Git modules...
 git submodule update --init --recursive
 echo.
-echo Все подмодули успешно скачаны в папки frontend/ и backend/!
-echo Теперь вы можете запускать docker-compose.
+echo All submodules have been successfully downloaded to the frontend/ and backend/ folders!
+echo Now you can run docker-compose.
 pause
