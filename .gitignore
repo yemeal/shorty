@@ -1,0 +1,18 @@
+# Окружение
+.env
+.env.*
+!.env.example
+
+# Сертификаты
+ssl/
+*.crt
+*.key
+
+# Логи и кэш
+logs/
+*.log
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
