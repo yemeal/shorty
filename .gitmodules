@@ -1,6 +1,8 @@
 [submodule "frontend"]
 	path = frontend
 	url = https://github.com/yemeal/shorty-frontend.git
+	branch = main
 [submodule "backend"]
 	path = backend
 	url = https://github.com/yemeal/shorty-backend.git
+	branch = main
