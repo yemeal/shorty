@@ -1,4 +1,5 @@
 services:
+  # Database
   db:
     container_name: shorty_db
     image: postgres:18
@@ -25,6 +26,7 @@ services:
     env_file:
       - .env
 
+  # Frontend
   frontend:
     build: ./frontend
     container_name: shorty_web
